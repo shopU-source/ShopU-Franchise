@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next/image"; // Image tag
 
 import page1 from "@/public/hero/page1image.png";
 
