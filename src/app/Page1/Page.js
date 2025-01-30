@@ -18,17 +18,17 @@ export default function Revolutionizing() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 max-w-4xl mx-auto">
           {/* Image Section */}
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center overflow-hidden">
             <Image
               src={page1}
               alt="Placeholder"
               
-              className="rounded-2xl shadow-lg w-full p-5 object-cover"
+              className="rounded-2xl shadow-lg w-full p-5 object-cover hover:scale-110 duration-1000"
             />
           </div>
 
           {/* Text Card Section */}
-          <div className=" bg-[#d4e1cd] flex items-center p-6 rounded-2xl shadow-lg w-full">
+          <div className=" bg-[#d4e1cd] flex items-center p-6 rounded-2xl shadow-lg w-full hover:-translate-y-2 transition-all duration-300">
             <div className="h-56 flex-row">
               <h2 className="text-[#294711] md:text-2xl text-xl font-bold mb-3">Who We Are</h2>
               <p className="text-black md:text-md text-sm font-bold mb-3">
