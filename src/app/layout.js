@@ -3,6 +3,10 @@ import "./globals.css";
 import Page1 from "@/app/Page1/Page"
 import Page2 from "@/app/Page2/Page"
 import Page3 from "@/app/Page3/Page"
+import Page4 from "@/app/Page4/Page"
+import Page6 from "@/app/Page6/Page"
+import ContactUs from "@/app/ContactUs/Page"
+
 import Navbar from "@/components/Navbar/Navbar";
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,13 +27,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className=""
+        className="bg-[#f3f4f6]"
       >
         <Navbar />
         {children}
         <Page1 />
         <Page2 />
         <Page3 />
+        <Page4 />
+        <Page6 />
+        <ContactUs />
       </body>
     </html>
   );

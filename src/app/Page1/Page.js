@@ -10,7 +10,7 @@ export default function Revolutionizing() {
       <div className="relative bg-[#f6f6f6] text-white pt-10  ">
         <div className="mb-2 bg-[#f6f6f6] max-w-[1320px] mx-auto">
           <h1 className="sm:text-4xl text-2xl text-center py-5  text-[#294711]">
-            Revolutionizing Retail & Medicine Delivery hat
+            Revolutionizing Retail & Medicine Delivery
           </h1>
         </div>
         <div className="w-16 h-1 bg-green-600 mx-auto mt-4 rounded"></div>
