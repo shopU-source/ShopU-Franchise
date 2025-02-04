@@ -8,6 +8,7 @@ import Page6 from "@/app/Page6/Page"
 import ContactUs from "@/app/ContactUs/Page"
 
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
         <Page4 />
         <Page6 />
         <ContactUs />
+        <Footer />
       </body>
     </html>
   );
