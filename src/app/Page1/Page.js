@@ -46,5 +46,6 @@ export default function Revolutionizing() {
         </div>
       </div>
     </div>
+    </>
   );
 }
