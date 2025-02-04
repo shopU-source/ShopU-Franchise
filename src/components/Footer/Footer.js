@@ -1,4 +1,4 @@
-"use client"
+\"use client"
 import Image from "next/image";
 // import facebookpng from "/public/footer/facebook.png";
 // import instagram from "/public/footer/instagram.png";

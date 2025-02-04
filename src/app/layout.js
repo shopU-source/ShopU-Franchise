@@ -6,7 +6,6 @@ import Page3 from "@/app/Page3/Page"
 import Page4 from "@/app/Page4/Page"
 import Page6 from "@/app/Page6/Page"
 import ContactUs from "@/app/ContactUs/Page"
-
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 const geistSans = Geist({
