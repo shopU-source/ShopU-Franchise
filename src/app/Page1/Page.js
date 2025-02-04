@@ -5,13 +5,14 @@ import page1 from "@/public/hero/page1image.png";
 
 export default function Revolutionizing() {
   return (
-    <div id="Revolutionizing" className="relative bg-[#f6f6f6] pt-24">
-      <div className="mb-2 bg-[#f6f6f6] max-w-[1320px] mx-auto">
-        <h1 className="sm:text-4xl text-2xl text-center py-5 text-[#294711]">
-          Revolutionizing Retail & Medicine Delivery
-        </h1>
-      </div>
-      <div className="w-16 h-1 bg-green-600 mx-auto mt-4 rounded"></div>
+    <>
+      <div className="relative bg-[#f6f6f6] text-white pt-10  ">
+        <div className="mb-2 bg-[#f6f6f6] max-w-[1320px] mx-auto">
+          <h1 className="sm:text-4xl text-2xl text-center py-5  text-[#294711]">
+            Revolutionizing Retail & Medicine Delivery
+          </h1>
+        </div>
+        <div className="w-16 h-1 bg-green-600 mx-auto mt-4 rounded"></div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 max-w-4xl mx-auto">
         {/* Image Section */}

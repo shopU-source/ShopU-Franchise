@@ -59,7 +59,7 @@ export default function Home() {
          
           <div className="text-center md:text-left md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-5xl text-[#287c2c] font-bold leading-tight">
-              🚀 Join the ShopU Revolution
+              🚀Join the ShopU Revolution
             </h1>
             <h3 className="text-xl md:text-3xl lg:text-4xl text-[#78bb42] font-bold leading-tight">
               Zero Investment Franchise Opportunity
