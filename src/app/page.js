@@ -5,16 +5,19 @@ import { useEffect, useState } from "react";
 import heropic from "@/public/hero/heropic.png";
 
 export default function Home() {
+  // State variables to track statistics
   const [franchises, setFranchises] = useState(0);
   const [investment, setInvestment] = useState(1000);
   const [margin, setMargin] = useState(0);
   const [month, setMonth] = useState(0);
   const [isMounted, setIsMounted] = useState(false);
 
+  // Ensures the component is mounted before running animations
   useEffect(() => {
     setIsMounted(true);
   }, []);
 
+  // Animation effect to increment franchises count up to 20
   useEffect(() => {
     if (!isMounted) return;
 
@@ -24,6 +27,7 @@ export default function Home() {
     }
   }, [franchises, isMounted]);
 
+  // Animation effect to increment months count up to 3
   useEffect(() => {
     if (!isMounted) return;
 
@@ -33,6 +37,7 @@ export default function Home() {
     }
   }, [month, isMounted]);
 
+  // Animation effect to increment profit margin up to 50%
   useEffect(() => {
     if (!isMounted) return;
 
@@ -42,6 +47,7 @@ export default function Home() {
     }
   }, [margin, isMounted]);
 
+  // Animation effect to decrement investment value down to 0
   useEffect(() => {
     if (!isMounted) return;
 
@@ -53,10 +59,11 @@ export default function Home() {
 
   return (
     <>
+      {/* Hero Section */}
       <section id="Home" className="relative bg-[#f6f6f6] text-white pt-20 pb-3 min-h-[90vh]">
         <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center">
           
-         
+          {/* Text Content */}
           <div className="text-center md:text-left md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-5xl text-[#287c2c] font-bold leading-tight">
               🚀Join the ShopU Revolution
@@ -78,7 +85,7 @@ export default function Home() {
             </div>
           </div>
 
-         
+          {/* Hero Image */}
           <div className="py-6 md:w-1/2 flex justify-center md:justify-evenly">
             <Image
               src={heropic}
@@ -86,12 +93,11 @@ export default function Home() {
               width={350}
               height={350}
               className="max-w-xs w-auto h-auto md:max-w-sm lg:max-w-md"
-             
             />
           </div>
         </div>
 
-      
+        {/* Statistics Section */}
         <div className="my-5 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <StatCard value={franchises} label="Exclusive Franchises" />
           <StatCard value={`${month} months`} label="To First Profit" />
@@ -103,6 +109,7 @@ export default function Home() {
   );
 }
 
+// Component for displaying each statistic
 const StatCard = ({ value, label }) => {
   return (
     <div className="min-h-[10vh] p-2 bg-[#effee7] rounded-lg shadow">
