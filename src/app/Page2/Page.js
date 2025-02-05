@@ -22,7 +22,7 @@ export default function Revolutionizing() {
                 Limited Time Opportunity
               </h2>
               <h3 className="text-black md:text-lg text-md font-bold mb-3 flex">
-              <svg class="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 Add a subheading
@@ -32,7 +32,7 @@ export default function Revolutionizing() {
                 Only 20 exclusive franchise opportunities
               </p>
               <h3 className="text-black md:text-lg text-md font-bold mb-3 flex">
-              <svg class="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 Zero Investment
@@ -41,7 +41,7 @@ export default function Revolutionizing() {
                 No upfront fees for first 20 partners
               </p>
               <h3 className="text-black md:text-lg text-md font-bold mb-3 flex">
-              <svg class="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 Quick Setup

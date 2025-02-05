@@ -26,13 +26,13 @@ export default function FranchiseModels() {
                         </div>
                     </div>
                     <div className="mt-4 text-gray-700 space-y-2">
-                      <span className="flex"><svg class="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <span className="flex"><svg className="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg> <p> Size: 120 Sq Ft to 5000 Sq Ft</p></span>
-                      <span className="flex"><svg class="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <span className="flex"><svg className="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg> <p> Ideal for healthcare entrepreneurs</p></span>
-                      <span className="flex"><svg class="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <span className="flex"><svg className="w-6 h-6 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg> <p>Focus on community healthcare</p></span>
                     </div>
