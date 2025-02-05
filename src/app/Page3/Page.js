@@ -1,4 +1,4 @@
-// Comment is added
+
 "use client"
 
 export default function FranchiseModels() {
