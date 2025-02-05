@@ -84,7 +84,15 @@ export default function Revolutionizing() {
             
             <div>
               <label className="block text-sm font-medium text-neutral-700 mb-2" htmlFor="message">Additional Information</label>
-              <textarea id="message" name="message" rows="4" className="w-full px-4 py-3 rounded-lg border border-green-300 focus:ring-2 focus:ring-green-600 focus:border-transparent"></textarea>
+              <textarea id="message" name="message" rows="4" className="w-full px-4 py-3 rounded-lg border border-green-300 focus:ring-2 focus:ring-green-600 focus:border-transparent"
+              onInput={(e) => {
+                const words = e.target.value.trim().split(/\s+/);
+                if (words.length > 200) {
+                  e.target.value = words.slice(0, 200).join(" ");
+                }
+              }}
+              >
+              </textarea>
             </div>
             
             <button type="submit" className="w-full bg-[#008C33] hover:bg-green-800 text-white font-semibold px-6 py-4 rounded-lg transition-all transform hover:scale-105">
