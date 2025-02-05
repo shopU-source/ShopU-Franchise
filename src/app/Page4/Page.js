@@ -27,9 +27,10 @@ const ApplicationProcess = () => {
                             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
-                        ),
-                        title: 'Zero Investment',
-                        desc1: "No upfront franchise fees",
+
+                        ), 
+                        title: 'Zero Investment', 
+                        desc1: "No upfront franchise fees", 
                         desc: 'First 20 partners only'
                     },
                     {
@@ -37,9 +38,10 @@ const ApplicationProcess = () => {
                             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                             </svg>
-                        ),
-                        title: 'Quick ROI',
-                        desc1: "Profits within 3 months",
+
+                        ), 
+                        title: 'Quick ROI', 
+                        desc1: "Profits within 3 months", 
                         desc: '40-50% profit margins'
                     },
                     {
@@ -47,9 +49,10 @@ const ApplicationProcess = () => {
                             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                             </svg>
-                        ),
-                        title: 'Tech-Driven Operations',
-                        desc1: "Smart inventory management",
+
+                        ), 
+                        title: 'Tech-Driven Operations', 
+                        desc1: "Smart inventory management", 
                         desc: 'Automated customer support'
                     },
                 ].map((item, index) => (
@@ -71,10 +74,10 @@ const ApplicationProcess = () => {
                     </div>
                 ))}
             </div>
-
-
+        
 
             <div className="mt-8 text-center">
+            <p className="text-lg text-neutral-600 mb-8">Join the retail revolution with comprehensive support and training</p>
                 <button className="bg-[#008C33] hover:bg-green-800 text-white text-lg font-semibold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
                     Become a partner
                 </button>
