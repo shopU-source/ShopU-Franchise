@@ -39,7 +39,7 @@ export default function Navbar() {
                         </Link>
                     </ul>
                     <Link href="/apply">
-                        <button className="bg-[#287c2c] hover:bg-green-800 rounded-full sm:px-3 px-2 mx-2 sm:text-lg text-sm text-white sm:h-9 h-7">
+                        <button className="bg-[#008C33] hover:bg-green-800 rounded-lg sm:px-3 px-2 mx-2 sm:text-lg text-sm text-white sm:h-9 h-7">
                             Apply Now
                         </button>
                     </Link>

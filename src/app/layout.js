@@ -4,7 +4,9 @@ import Page1 from "@/app/Page1/Page"
 import Page2 from "@/app/Page2/Page"
 import Page3 from "@/app/Page3/Page"
 import Page4 from "@/app/Page4/Page"
+import Page5 from "@/app/Page5/Page"
 import Page6 from "@/app/Page6/Page"
+import Page7 from "@/app/Page7/Page"
 import ContactUs from "@/app/ContactUs/Page"
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
@@ -35,7 +37,9 @@ export default function RootLayout({ children }) {
         <Page2 />
         <Page3 />
         <Page4 />
+        <Page5 />
         <Page6 />
+        <Page7 />
         <ContactUs />
         <Footer />
       </body>
