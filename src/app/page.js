@@ -19,7 +19,7 @@ export default function Home() {
     if (!isMounted) return;
 
     if (franchises < 20) {
-      const timer = setTimeout(() => setFranchises((prev) => prev + 1), 50);
+      const timer = setTimeout(() => setFranchises((prev) => prev + 1), 40);
       return () => clearTimeout(timer);
     }
   }, [franchises, isMounted]);
@@ -28,7 +28,7 @@ export default function Home() {
     if (!isMounted) return;
 
     if (month < 3) {
-      const timer = setTimeout(() => setMonth((prev) => prev + 1), 100);
+      const timer = setTimeout(() => setMonth((prev) => prev + 1), 60);
       return () => clearTimeout(timer);
     }
   }, [month, isMounted]);
@@ -37,7 +37,7 @@ export default function Home() {
     if (!isMounted) return;
 
     if (margin < 50) {
-      const timer = setTimeout(() => setMargin((prev) => prev + 1), 50);
+      const timer = setTimeout(() => setMargin((prev) => prev + 1), 20);
       return () => clearTimeout(timer);
     }
   }, [margin, isMounted]);
@@ -46,7 +46,7 @@ export default function Home() {
     if (!isMounted) return;
 
     if (investment > 0) {
-      const timer = setTimeout(() => setInvestment((prev) => prev - 10), 50);
+      const timer = setTimeout(() => setInvestment((prev) => prev - 10), 8);
       return () => clearTimeout(timer);
     }
   }, [investment, isMounted]);
@@ -69,10 +69,10 @@ export default function Home() {
               Transform the future of retail and medicine delivery.
             </p>
             <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
-              <button className="bg-[#287c2c] hover:animate-bounce font-semibold px-6 py-3 rounded-lg shadow-2xl hover:bg-green-800 transition">
+              <button className="bg-[#008C33] hover:animate-bounce font-semibold px-6 py-3 rounded-lg shadow-2xl hover:bg-green-800 transition">
                 Apply Now
               </button>
-              <button className="text-green-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#287c2c] hover:text-white transition">
+              <button className="text-green-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#008C33] hover:text-white transition">
                 Explore Models
               </button>
             </div>
