@@ -60,12 +60,12 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section id="Home" className="relative bg-[#f6f6f6] text-white pt-20 pb-3 min-h-[90vh]">
+        <section id="Home" className="relative bg-[#f6f6f6] text-white pt-20 pb-3 min-h-[90vh]">
         <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center">
           
           {/* Text Content */}
           <div className="text-center md:text-left md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-5xl text-[#287c2c] font-bold leading-tight">
+            <h1 className="md:text-5xl lg:text-5xl text-[#287c2c] font-bold leading-tight">
               🚀Join the ShopU Revolution
             </h1>
             <h3 className="text-xl md:text-3xl lg:text-4xl text-[#78bb42] font-bold leading-tight">
@@ -92,13 +92,13 @@ export default function Home() {
               alt="Hero Image"
               width={350}
               height={350}
-              className="max-w-xs w-auto h-auto md:max-w-sm lg:max-w-md"
+              className="max-w-xs ml-10 w-auto h-auto md:max-w-sm lg:max-w-md"
             />
           </div>
         </div>
 
         {/* Statistics Section */}
-        <div className="my-5 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div className="my-20 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <StatCard value={franchises} label="Exclusive Franchises" />
           <StatCard value={`${month} months`} label="To First Profit" />
           <StatCard value={`${margin}%`} label="Profit Margin" />
