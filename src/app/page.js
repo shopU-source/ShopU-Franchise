@@ -98,7 +98,7 @@ export default function Home() {
         </div>
 
         {/* Statistics Section */}
-        <div className="my-20 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div className="my-20 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center items-center">
           <StatCard value={franchises} label="Exclusive Franchises" />
           <StatCard value={`${month} months`} label="To First Profit" />
           <StatCard value={`${margin}%`} label="Profit Margin" />
