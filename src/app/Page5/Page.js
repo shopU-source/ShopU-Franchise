@@ -4,7 +4,7 @@ import React from 'react';
 
 const ROIInvestment = () => {
     return (
-        <div className="max-w-6xl mx-auto p-8 mb-14 bg-[#F3F4F6] ">
+        <div className="max-w-6xl mx-auto p-8  bg-[#F3F4F6] ">
             <h2 className="text-4xl font-extrabold text-center text-[#294711]">ROI & Investment Details</h2>
             <p className="text-center text-gray-600 mt-3 text-lg">
                 Explore the setup costs and potential returns for each franchise model
