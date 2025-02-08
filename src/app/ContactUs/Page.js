@@ -109,10 +109,10 @@ export default function Revolutionizing() {
                   Contact Information
                 </h3>
                 <p className="text-neutral-600">
-                  Phone: <strong>+91 1234567890</strong>
+                  Phone: <strong>+91 96465 34433</strong>
                 </p>
                 <p className="text-neutral-600">
-                  Email: <strong>franchise@shopu.com</strong>
+                  Email: <strong> liveshopu@gmail.com</strong>
                 </p>
               </div>
 

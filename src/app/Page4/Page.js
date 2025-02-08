@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 const ApplicationProcess = () => {
@@ -78,9 +78,11 @@ const ApplicationProcess = () => {
 
             <div className="mt-8 text-center">
             <p className="text-lg text-neutral-600 mb-8">Join the retail revolution with comprehensive support and training</p>
+            <Link href="#contact">
                 <button className="bg-[#008C33] hover:bg-green-800 text-white text-lg font-semibold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
                     Become a partner
                 </button>
+                </Link>
             </div>
         </div>
     );
