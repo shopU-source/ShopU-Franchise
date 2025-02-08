@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 export default function FranchiseModels() {
     return (
         <div id="Franchise" className=" min-h-screen bg-gray-100 flex flex-col items-center justify-center pt-[120px]">
@@ -60,10 +62,11 @@ export default function FranchiseModels() {
                 </div>
             </div>
 
-
+<Link href="#contact">
             <button className="mt-8 bg-[#008C33] text-white px-6 py-3 rounded-xl shadow-lg hover:bg-green-800 transition">
                 Apply for Franchise
             </button>
+            </Link>
         </div>
     );
 }

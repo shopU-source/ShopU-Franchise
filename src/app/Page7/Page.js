@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-
+import Link from 'next/link';
 const ApplicationProcess = () => {
   return (
     <div className="max-w-6xl mx-auto pt-8 bg-[#F3F4F6] ">
@@ -43,9 +43,11 @@ const ApplicationProcess = () => {
       </div>
 
       <div className="mt-8 text-center">
+      <Link href="#contact">
         <button className="bg-[#008C33] hover:bg-green-800 text-white text-lg font-semibold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
           Apply Now - Limited Slots Available!
         </button>
+        </Link>
       </div>
     </div>
   );

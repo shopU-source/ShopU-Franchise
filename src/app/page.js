@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import heropic from "@/public/hero/heropic.png";
@@ -76,12 +76,16 @@ export default function Home() {
               Transform the future of retail and medicine delivery.
             </p>
             <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+              <Link href="#contact">
               <button className="bg-[#008C33] hover:animate-bounce font-semibold px-6 py-3 rounded-lg shadow-2xl hover:bg-green-800 transition">
                 Apply Now
               </button>
+              </Link>
+              <Link href="#Investment">
               <button className="text-green-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#008C33] hover:text-white transition">
                 Explore Models
               </button>
+              </Link>
             </div>
           </div>
 
