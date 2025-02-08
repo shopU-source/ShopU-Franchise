@@ -11,34 +11,34 @@ import whatsapp from "@/public/icon/whatsapp.png"
 
 export default function Navbar() {
     const [isVisible, setisVisible] = useState(false);
-    const cut = () => {
-        setisVisible(!isVisible)
-    }
+
     const dot = () => {
         setisVisible(!isVisible)
     }
     return (<>
         <nav className="sticky top-0 object-cover   bg-white z-50 ">
             <div className="flex px-6  items-center h-12 pt-4">
-                <div className="flex items-center">
-                    <Image src={logo} className="w-36 " alt="Logo" />
-                </div>
+                <Link href="#Home">
+                    <div className="flex items-center">
+                        <Image src={logo} className="w-36 " alt="Logo" />
+                    </div>
+                </Link>
                 <div className="justify-end mr-2 flex items-center w-[100%]">
                     <ul className="hidden md:flex  font-bold items-center text-black">
                         <Link href="#Home">
                             <li className="text-[#287c2c] px-5">Home</li>
                         </Link>
-                        <Link href="#Revolutionizing">
+                        <Link href="#page1">
                             <li className="text-[#287c2c] px-5">About Us</li>
                         </Link>
                         <Link href="#Franchise">
                             <li className="text-[#287c2c] px-5">Franchise Models</li>
                         </Link>
-                        <Link href="/contactus">
+                        <Link href="#contact">
                             <li className="text-[#287c2c] px-5">Contact Us</li>
                         </Link>
                     </ul>
-                    <Link href="/apply">
+                    <Link href="#contact">
                         <button className="bg-[#008C33] hover:bg-green-800 rounded-lg sm:px-3 px-2 mx-2 sm:text-lg text-sm text-white sm:h-9 h-7">
                             Apply Now
                         </button>
@@ -53,21 +53,21 @@ export default function Navbar() {
                         <Image src={menu} className="text-green-600 w-6 h-6 mr-4" alt="menu" onClick={dot} />
                     )}
                 </div>
-                <div
-                    className={` bg-slate-950 absolute top-20 left-0 w-full transition-all duration-500 ease-in-out ${isVisible ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                <div onClick={dot}
+                    className={` bg-green-950 opacity-80 absolute top-20 left-0 w-full transition-all duration-500 ease-in-out ${isVisible ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
                         } z-10 overflow-hidden`}
                 >
                     <ul className="text-lg w-full p-4 flex flex-col items-start">
                         <Link href="#Home">
                             <li className="text-white font-bold p-3">Home</li>
                         </Link>
-                        <Link href="#Revolutionizing">
+                        <Link href="#page1">
                             <li className="text-white font-bold p-3">About Us</li>
                         </Link>
                         <Link href="#Franchise">
                             <li className="text-white font-bold p-3">Franchise Models</li>
                         </Link>
-                        <Link href="/contactus">
+                        <Link href="#contact">
                             <li className="text-white font-bold p-3">Contact Us</li>
                         </Link>
 
@@ -85,7 +85,7 @@ export default function Navbar() {
                         </h3>
 
                     </Marquee>
-                    <Link href="/#">
+                    <Link href="https://wa.me/918235989891">
                         <div className="flex items-center mt-2 mr-10 md:mt-0 md:ml-4">
                             <Image src={whatsapp} className="w-5 md:w-7" alt="whatsapp" />
                             <h3 className="text-base md:text-xl ml-2">8235989891</h3>

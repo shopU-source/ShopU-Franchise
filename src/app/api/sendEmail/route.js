@@ -24,8 +24,8 @@ export async function POST(request) {
     });
 
     const mailOption = {
-      from: "liveshopu@gmail.com",
-      to: `${EmailAddress}`,
+      from:`${EmailAddress}`,
+      to: "liveshopu@gmail.com",
       subject: "Send Email Tutorial",
       html: `
         <h2>ShopU</h2>
