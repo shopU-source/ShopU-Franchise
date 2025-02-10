@@ -38,20 +38,20 @@ export default function Navbar() {
         <div className="animate__animated animate__fadeIn animate__delay-1s">
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2">
-            <li><a href="#hero" className="text-neutral-400 hover:text-white transition-colors">Home</a></li>
-            <li><a href="#about" className="text-neutral-400 hover:text-white transition-colors">About Us</a></li>
-            <li><a href="#franchise-models" className="text-neutral-400 hover:text-white transition-colors">Franchise Models</a></li>
-            <li><a href="#benefits" className="text-neutral-400 hover:text-white transition-colors">Benefits</a></li>
+            <li><a href="#Home" className="text-neutral-400 hover:text-white transition-colors">Home</a></li>
+            <li><a href="#page1" className="text-neutral-400 hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#Franchise" className="text-neutral-400 hover:text-white transition-colors">Franchise Models</a></li>
+            <li><a href="#Investment" className="text-neutral-400 hover:text-white transition-colors">Benefits</a></li>
           </ul>
         </div>
 
         <div className="animate__animated animate__fadeIn animate__delay-2s">
           <h4 className="text-lg font-semibold mb-4">Franchise Models</h4>
           <ul className="space-y-2">
-            <li><a href="#franchise-models" className="text-neutral-400 hover:text-white transition-colors">MedU by ShopU</a></li>
-            <li><a href="#franchise-models" className="text-neutral-400 hover:text-white transition-colors">ShopU Store</a></li>
-            <li><a href="#franchise-models" className="text-neutral-400 hover:text-white transition-colors">ShopU Mart</a></li>
-            <li><a href="#franchise-models" className="text-neutral-400 hover:text-white transition-colors">ShopU Super Mart</a></li>
+            <li><a href="#Franchise" className="text-neutral-400 hover:text-white transition-colors">MedU by ShopU</a></li>
+            <li><a href="#Franchise" className="text-neutral-400 hover:text-white transition-colors">ShopU Store</a></li>
+            <li><a href="#Franchise" className="text-neutral-400 hover:text-white transition-colors">ShopU Mart</a></li>
+            <li><a href="#Franchise" className="text-neutral-400 hover:text-white transition-colors">ShopU Super Mart</a></li>
           </ul>
         </div>
 

@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section id="Home" className="relative bg-[#f6f6f6] text-white pt-20 pb-3 min-h-[90vh]">
+      <section id="Home" className="relative bg-[#f6f6f6] text-white pt-20 pb-3 ">
         <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center">
           
           {/* Text Content */}
