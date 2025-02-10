@@ -118,7 +118,7 @@ export default function Home() {
 // Component for displaying each statistic
 const StatCard = ({ value, label }) => {
   return (
-    <div className="min-h-[10vh] p-2 bg-[#effee7] rounded-lg shadow">
+    <div className="p-2 bg-[#effee7] rounded-lg shadow">
       <div className="md:text-3xl text-xl font-bold text-[#287c2c]">{value}</div>
       <div className="text-sm text-[#294711]">{label}</div>
     </div>
