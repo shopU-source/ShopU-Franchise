@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function FranchiseModels() {
     return (
-        <div id="Franchise" className=" min-h-screen bg-gray-100 flex flex-col items-center justify-center pt-[120px]">
+        <div id="Franchise" className="  bg-gray-100 flex flex-col items-center justify-center pt-[120px]">
 
             <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold text-[#294711]">Our Franchise Models</h2>

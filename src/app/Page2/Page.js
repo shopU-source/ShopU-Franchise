@@ -7,7 +7,7 @@ import page2 from "@/public/hero/page2image.png";
 export default function Revolutionizing() {
   return (
     <>
-      <div id="Opportunity" className=" pt-28  bg-[#f6f6f6] text-white  min-h-[90vh]">
+      <div id="Opportunity" className=" pt-28  bg-[#f6f6f6] text-white  ">
         <div className="mb-2 bg-[#f6f6f6] max-w-[1320px] mx-auto">
           <h1 className="sm:text-4xl text-2xl text-center py-5  text-[#294711]">
             Opportunity
