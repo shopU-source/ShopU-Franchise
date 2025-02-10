@@ -61,6 +61,8 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section id="Home" className="relative bg-[#f6f6f6] text-white pt-20 pb-3 ">
+
+        
         <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center">
           
           {/* Text Content */}
@@ -96,13 +98,13 @@ export default function Home() {
               alt="Hero Image"
               width={350}
               height={350}
-              className="max-w-xs w-auto h-auto md:max-w-sm lg:max-w-md"
+              className="max-w-xs ml-10 w-auto h-auto md:max-w-sm lg:max-w-md"
             />
           </div>
         </div>
 
         {/* Statistics Section */}
-        <div className="my-5 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div className="my-20 mx-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center items-center">
           <StatCard value={franchises} label="Exclusive Franchises" />
           <StatCard value={`${month} months`} label="To First Profit" />
           <StatCard value={`${margin}%`} label="Profit Margin" />
