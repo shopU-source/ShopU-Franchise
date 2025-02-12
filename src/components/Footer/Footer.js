@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "@/public/logo/logo.png";
+import logoFooter from "@/public/logo/logoFooter.png";
 import Link from "next/link";
 export default function Navbar() {
 
@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="animate__animated animate__fadeIn">
           <div className="mb-6">
             <Link href="#Home">
-            <Image src={logo} className="w-36 " alt="Logo" />
+            <Image src={logoFooter} className="w-36 " alt="Logo" />
             </Link>
             <p className="text-neutral-400 mt-2">Revolutionizing retail with zero-commission solutions</p>
           </div>

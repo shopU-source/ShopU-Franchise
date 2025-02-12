@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "@/public/logo/logo.png";
+import logoHeader from "@/public/logo/logoHeader.png";
 import Link from "next/link";
 import { useState } from "react";
 import Marquee from "react-fast-marquee"
@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className="flex px-6  items-center h-12 pt-4">
                 <Link href="#Home">
                     <div className="flex items-center">
-                        <Image src={logo} className="w-36 " alt="Logo" />
+                        <Image src={logoHeader} className="w-36 " alt="Logo" />
                     </div>
                 </Link>
                 <div className="justify-end mr-2 flex items-center w-[100%]">
